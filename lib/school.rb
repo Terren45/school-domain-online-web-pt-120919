@@ -1,2 +1,2 @@
 class School
-  school = School.new(# code here!
+  school = School.new(""
