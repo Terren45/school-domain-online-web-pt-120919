@@ -5,12 +5,13 @@ class School
     @name = name
     @roster = {}
   end 
+  
   def add_student(student, level)
     roster[level] ||= []
     roster[level] << student
   end 
   
-def sort 
+  def sort 
   nu_hash = {}
   roster.each do |x, y| 
     nu_hash[x] = y.sort 
