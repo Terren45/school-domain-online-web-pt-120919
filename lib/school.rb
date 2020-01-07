@@ -1,2 +1,3 @@
 class School
-  school = school.new
+  school = school.new("Bayside High School")
+  school.roster
