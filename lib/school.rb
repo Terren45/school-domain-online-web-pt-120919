@@ -11,6 +11,7 @@ class School
     roster[level] << student
   end 
   
+  
   def sort 
   nu_hash = {}
   roster.each do |x, y| 
