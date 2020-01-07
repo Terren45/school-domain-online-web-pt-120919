@@ -1,1 +1,2 @@
-hash = {}
+class School
+  school = school.new
