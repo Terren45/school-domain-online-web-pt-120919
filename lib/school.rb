@@ -8,11 +8,11 @@ class School
   
   def add_student(student, grade)
     roster[grade] ||= []
-    roster[level] << student
+    roster[grade] << student
   end 
-  def grade(level)
+  def grade(grade)
     roster.detect do |x, y| 
-      if x == level
+      if x == grade
         return y 
       end 
     end 
